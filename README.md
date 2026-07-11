@@ -1,8 +1,12 @@
 # 📈 Algorithmic Trading Backtester
 
+**🔴 Live demo: [algo-trading-backtester-5nwlzkaxubapphojrv7mptk.streamlit.app](https://algo-trading-backtester-5nwlzkaxubapphojrv7mptk.streamlit.app)**
+
 Multi-strategy backtesting engine for equities — Sharpe ratio, drawdown & CAGR
 analysis with a live Streamlit dashboard. Backtest classic strategies on free
 Yahoo Finance data and compare them against buy-and-hold.
+
+![Equity curve vs buy-and-hold](docs/screenshots/equity-curve.png)
 
 **Stack:** [yfinance](https://github.com/ranaroussi/yfinance) (data) ·
 [backtrader](https://www.backtrader.com/) (engine) ·
@@ -22,6 +26,14 @@ Everything is free and open-source.
 Every backtest reports **Sharpe ratio**, **max drawdown**, **CAGR**, total
 return, annualized volatility, trade count and win rate — side by side with a
 **buy-and-hold benchmark** on the same data, dates and starting capital.
+
+## Dashboard
+
+Pick a ticker, strategy and parameters in the sidebar and every chart, metric
+and trade updates live. Buy/sell markers show exactly where the strategy
+entered and exited:
+
+![Price chart with buy/sell markers](docs/screenshots/price-and-trades.png)
 
 ## Run locally
 
