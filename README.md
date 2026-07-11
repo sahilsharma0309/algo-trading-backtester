@@ -1,6 +1,6 @@
 # 📈 Algorithmic Trading Backtester
 
-**🔴 Live demo: [algo-trading-backtester-5nwlzkaxubapphojrv7mptk.streamlit.app](https://algo-trading-backtester-5nwlzkaxubapphojrv7mptk.streamlit.app)**
+**🔴 Live demo: [algo-trading-backtester-ke3p7jj2vzjadvtg4mbhum.streamlit.app](https://algo-trading-backtester-ke3p7jj2vzjadvtg4mbhum.streamlit.app)**
 
 Multi-strategy backtesting engine for equities — Sharpe ratio, drawdown & CAGR
 analysis with a live Streamlit dashboard. Backtest classic strategies on free
